@@ -1,4 +1,7 @@
 const express = require('express');
+
+// cross origin resource sharing
+
 const cors = require('cors');
 
 const authRoutes = require("./routes/auth.js");
